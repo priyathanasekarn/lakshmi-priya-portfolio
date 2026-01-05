@@ -334,9 +334,9 @@ body {
     justify-content: center;
     align-items: center;
     padding: var(--spacing-3xl) var(--spacing-lg);
-    padding-bottom: var(--spacing-3xl);
+    padding-bottom: calc(var(--spacing-3xl) * 2);
     position: relative;
-    margin-bottom: var(--spacing-3xl);
+    margin-bottom: calc(var(--spacing-3xl) * 1.5);
 }
 
 .hero-container {
